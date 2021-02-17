@@ -1,5 +1,27 @@
-Nesse repositório está um app feito por mim, proposto no curso <a href="https://www.udemy.com/course/ios-13-app-development-bootcamp/"> iOS & Swift </a>. O app retorna a temperatura e o clima, no momento da busca, de uma cidade pesquisada ou através da sua localização atual.
+<h1> About repository </h1>
+  
+This repository contains a weather app. This app is able to return the temperature and climate of the researched city or its current location.
 
-A api consumida pelo app foi fornecida pela <a href= "https://openweathermap.org/api">OpenWeather</a>. A documentação está no link.
+<h1>API</h1>
 
-No código implementado utilizando padrões como MVC, Protocol Oriented Programming e delegation pattern.
+The API consumed as <a href= "https://openweathermap.org/api">OpenWeather</a>. In the preoject, i'm using the JSON data to return the informations.
+
+<h1>The code</h1>
+
+The code was implemented using MVC, Protocol Oriented Programming ande delegation pattern.
+
+<h1>Requeriments</h1>
+
+<ul>
+  <li>iOS 13.0+ </li>
+  <li>Xcode 11+ </li>
+</ul>
+
+<h1> Run </h1>
+
+Clone this project and run with the xCode. 
+
+<h4>Try this if you get Error Domain=kCLErrorDomain Code=0 "(null)": </h4>
+
+Simulator > Features > Location > Custom Location ... > give some Latitude and Longitude!
+and then re build & re run the app
